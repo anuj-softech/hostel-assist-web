@@ -1,0 +1,21 @@
+@keyframes fadeInS {
+    from {
+        opacity: 0;
+        transform: translateY(20px); /* Optional: add a slight upward movement */
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in-on-scroll {
+    opacity: 0; /* Initially hidden */
+    transform: translateY(20px); /* Optional: positioned slightly down */
+    transition: opacity 1s ease-out, transform 0.3s ease-out;
+}
+
+.fade-in-on-scroll.visible {
+    opacity: 1; /* Fully visible */
+    transform: translateY(0); /* Back to original position */
+}
