@@ -81,7 +81,7 @@ body {
 
 #header {
     position: relative;
-    padding-top: 80px;
+    padding-top: 70px;
 }
 
 #backpage {
@@ -219,5 +219,7 @@ body {
         color: #010000;
         margin: 20px;
     }
-
+    .intro h2 {
+        margin-top: 50px;
+    }
 }
